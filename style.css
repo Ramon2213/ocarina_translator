@@ -1,0 +1,122 @@
+h1, h2, h3 {
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    color: grey;
+}
+.title{
+    text-align: center;
+}
+
+p {
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-size: 2rem;
+
+}
+
+.translator {
+    border: 0px solid #ccc;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 100%;
+
+    
+}
+
+button {
+  height: 60px;
+  background-color: #fff;
+  
+  border: 0px solid #c4c4c4;
+
+
+  color: #333;
+  background-image: linear-gradient(to bottom,transparent,transparent 50%,rgba(0,0,0,.04));
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.05), inset 0 1px 0 0 rgba(255,255,255,.45), inset 0 -1px 0 0 rgba(255,255,255,.15), 0 1px 0 0 rgba(255,255,255,.15);
+  text-shadow: 0 1px rgba(255,255,255,.4);
+  
+}
+
+
+.under.line-note:hover {
+    background-color: lawngreen;
+}
+.space-note {
+  color: black;
+  height: 80px;
+}
+.line-note {
+    background-color: black;
+    height: 10px;
+    color: white;
+    font-size: 0.8rem;
+
+}
+.under.line-note{
+    background-color:lightgray;
+}
+
+.note-keys {
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+ 
+}
+.resultscreen {
+    background-color: antiquewhite;
+
+    width: 100%;
+    background-color: red;
+ 
+
+}
+
+input{
+    border: 0px;
+}
+    input:hover {
+        background-color: moccasin;
+    }
+
+.space-note.unavailable:hover{
+    background-color: red;
+}
+.line-note.unavailable:hover{
+    background-color: red;
+}
+
+.screen {
+    float: left;
+    width: 100%;
+
+   
+
+}
+
+.space-note:focus{
+    background-color: moccasin;
+    
+}
+.line-note:focus {
+    background-color: moccasin;
+}
+.image{
+    width: 100%;
+}
+
+.screen {
+    width: 10%;
+}
